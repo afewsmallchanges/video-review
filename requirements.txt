@@ -1,0 +1,8 @@
+PySide6>=6.5
+opencv-python-headless>=4.8
+numpy>=1.24
+imageio-ffmpeg>=0.5
+
+
+# Must be the *headless* OpenCV: the normal opencv-python wheel bundles its own
+# Qt, which clashes with PySide6 ("could not load the Qt platform plugin").
